@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.key.toString()),
+        title: const Text("Retrofit Pub Test"),
       ),
       body: RefreshIndicator(
         onRefresh: refreshData,

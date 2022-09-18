@@ -46,7 +46,7 @@ class _CreatePostPageState extends State<CreatePostPage> {
           },
           icon: const Icon(Icons.arrow_back_ios_new_rounded),
         ),
-        title: Text(widget.key.toString()),
+        title: const Text("Add New Post"),
       ),
       body: Form(
         key: formKey,
