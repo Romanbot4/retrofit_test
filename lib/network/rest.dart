@@ -21,4 +21,7 @@ abstract class RestClient {
 
   @GET("/comments/{postId}")
   Future<Comment> getCommentByPostId(@Path("postId") int postId);
+
+  @POST("/posts")
+  Future<Post> createPost(@Body() Post post);
 }
