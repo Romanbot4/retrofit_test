@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [Provider(create: (_) => restClient)],
       child: MaterialApp(
-        title: 'Retrofit Test',
+        title: appName,
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
